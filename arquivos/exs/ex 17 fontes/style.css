@@ -1,0 +1,38 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to right,#7c49ab,#AF85D7);
+}
+/*
+MEDIDAS ABSOLUTAS
+CM, MM, IN, PX, PT, PC
+
+MEDIAS RELATIVAS
+EM, EX, REM, VW, VH, %
+*/
+/* font-weight
+font-style
+font-size
+text-decoration
+
+shorthand
+font- style - weight - size - decoration
+*/
+main{
+    font: normal 16px arial, verdana, sans-serif;
+    padding: 20px;
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.573);
+    border-radius: 6px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: right;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanhos</title>
+</head>
+<body><h1>Tamanhos de imagens</h1>
+    <p>Abra essa aba em tamanhos diferentes para ver a magica</p>
+    <picture>
+        <source media="(max-width: 725px)"
+        srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1025px)" srcset="imagens/medio.png" type="image/png">
+        <img src="imagens/grande.png" alt="imagem flexivel">
+    </picture>
+    <h2>Vamos reproduzir audios</h2>
+    <!--<audio src="Take Me Out To The Ballgame - Freedom Trail Studio.mp3" controls></audio> -->
+    <audio preload="metadata" controls>
+        <source src="Take Me Out To The Ballgame - Freedom Trail Studio.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
