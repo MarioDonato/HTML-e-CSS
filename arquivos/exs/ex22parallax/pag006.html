@@ -3,24 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tex</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens-cap19/wallpaper003.jpg);
             background-repeat: no-repeat;
             background-position: center top;
             background-size: cover;
+            background-attachment: fixed;*/
+            background: black url(imagens-cap19/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
+
+            /* shorthand backgorund
+            color image position repeat size ata
+
+            */
         }
         main{
             background-color: white;
             padding: 5px;
-            width: 300px;
             margin: auto;
             border-radius: 20px;
             border: 2px solid blue;
             font-size: 2em;
+            max-width: 700px;
         }
     </style>
 </head>
