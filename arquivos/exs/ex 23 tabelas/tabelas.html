@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabbelas</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 400px;
+            /*height: 400px;*/
+            border-collapse: collapse;
+        }
+
+        tr.linha:hover{
+            background-color: gray;
+            transition-duration: 5s;
+        }
+
+        table tr td{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center; /* alinhamento horizontal*/
+            /*vertical-align: bottom;  top middle bottom*/ 
+        }
+
+        .numero{
+            text-align: right;
+        }
+    </style>
+</head>
+<body><h1>Minha Primeira Tabela</h1>
+    <!--
+        Hierarquia de tabelas simples 
+
+        table = tabela
+            tables row = linha de tabela
+                table header = cabecalho
+                table data = dado da tabel
+    -->
+
+    <table>
+        <tr> <!--primeira linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr class="linha">
+            <td>A1</td>
+            <td class="numero">2B</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A1</td>
+            <td>B2</td>
+            <td class="numero">3C</td>
+        </tr>
+    </table>
+</body>
+</html>
