@@ -34,3 +34,29 @@ section#telefone{
     width: 311px;
     background: url(pacote-d013/pacote-d013/imagens/frame-iphone.png) no-repeat;
 }
+
+iframe#tela{
+    position: relative;
+    left: 22px;
+    top: 81px;
+    height: 470px;
+    width: 266px;
+}
+
+section#redes{
+    text-align: right;
+}
+
+section#redes img{
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.56);
+    box-sizing: border-box;
+}
+
+section#redes img:hover{
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.401);
+    transition: 0.3s;
+}
