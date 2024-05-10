@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form action="">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required placeholder="Nome do Usuario" autocomplete="username" maxlength="15">
+        </p>
+
+        <p>
+            <label for="imedia">Media: </label>
+            <input type="number" name="media" id="imedia" placeholder="Media" min="0" max="10" step="0.5" required>
+        </p>
+
+        <p>
+            <label for="date">Data da prova:</label>
+            <input type="date" name="date" id="idate" value="2024-05-10" required>
+        </p>
+
+        <p>
+            <label for="idp">Horario da prova:</label>
+            <input type="time" name="dp" id="idp" required>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
+        </p>
+    </form>
+</body>
+</html>
