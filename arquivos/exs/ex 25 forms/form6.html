@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Mais um Formulario</h1>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Estados</legend>
+            <p>
+                <label for="est">Selecione:</label>
+                <select name="est" id="est">
+                    <optgroup label="Exemplo">
+                        <option value="SP" selected>Sao Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Mato Grosso</option>
+                    </optgroup>
+                    <optgroup label="Mais exemplo">
+                        <option value="Nao">Mais Estados</option>
+                    </optgroup>
+                </select>
+            </p>
+        </fieldset>
+        <p>
+            <label for="prof">Selecione:</label>
+            <input type="text" name="prof" id="prof" list="listprof">
+            <datalist id="listprof">
+                <option>Administrador</option>
+                <option>Exemplo</option>
+                <option value="sl">Sei la</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="msg">msg: </label> <br>
+            <textarea name="msg" id="msg" cols="30" rows="10">
+            </textarea>
+        </p>
+    </form>
+</body>
+</html>

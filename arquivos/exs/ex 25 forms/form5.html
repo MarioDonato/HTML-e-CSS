@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario 5</title>
+</head>
+<body>
+    <h1>Formulario 5</h1>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Cores</legend>
+            <p>
+                <label for="cor">Cor:</label>
+                <input type="color" name="cor" id="cor" value="#ff88ff">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Satisfacao</legend>
+            <label for="saf">Nivel:</label>
+            <input type="range" name="saf" id="saf" min="1" max="5">
+        </fieldset>
+        <fieldset>
+            <legend>Imagem</legend>
+            <label for="img">Foto de Perfil</label>
+            <input type="file" name="img" id="img">
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
+        </p>
+    </form>
+</body>
+</html>
