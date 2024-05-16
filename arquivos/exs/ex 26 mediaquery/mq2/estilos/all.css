@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/*Todos (all)*/
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #223eff;
+}
+h1{
+    color: white;
+    text-shadow: 2px 2px 0px #0e1a68;
+    padding: 10px;
+    background: #1e38e1;
+}
+body{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
