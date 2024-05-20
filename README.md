@@ -1,3 +1,3 @@
 Ola, mundo!
 
-Minha jornada de HTML e CSS.
+Minha jornada de aprendizagem de HTML e CSS.
