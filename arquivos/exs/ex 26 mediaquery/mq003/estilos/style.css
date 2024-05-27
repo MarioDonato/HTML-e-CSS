@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@media all{
+    *{
+        padding: 0px;
+        margin: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    html, body{
+        width: 100vw;
+        height: 100vh;
+        background-color: #223eff;
+    }
+    header{
+        background-color: #1e38e1;
+        padding-bottom: 5px;
+    }
+    h1{
+        color: white;
+        text-shadow: 2px 2px 0px #0e1a68;
+        padding: 10px;
+        background: #1e38e1;
+    }
+    menu{
+        
+    }
+    menu div{
+        font-weight: bold;
+        display: inline-block;
+        color: white;
+        border-radius: 5px;
+        padding: 5px;
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+    menu div:hover{
+        background-color: #0e1a68;
+        transform: translate(-2px,-2px);
+        transition-duration: 0.5s;
+    }
+    menu a{
+        text-decoration: none;
+        color: white;
+    }
+    body{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (orientation:portrait) {
+    body{
+        background-image: url(../imagem/cev-portrait.jpg);
+       background-position: center bottom;
+    }
+}
+@media screen and (orientation:landscape) {
+    body{
+        background-image: url(../imagem/cev-landscape.jpg);
+        background-position: left bottom;
+    }
+}
