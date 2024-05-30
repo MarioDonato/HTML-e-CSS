@@ -27,7 +27,7 @@ main{
 
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 510px;
     border-radius: 20px;
     overflow: hidden;
 }
@@ -42,16 +42,63 @@ main div#foto{
 main div#login h1{
     font-size: 1.8em;
     text-align: center;
-    margin: 2px;
+    padding: 2px;
 }
 
 main div#login p{
     font-size: 0.8em;
     margin: 10px;
 }
+
+main form div.campo{
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #5f2c82;
+    margin: 10px 0px;
+    border-radius: 5px;
+
+}
+
 main form {
     margin: 5px;
 }
+
 span.material-symbols-outlined{
     transform: translate(0%, 30%);
+}
+
+form input[type=submit]{
+    display: block;
+    background-color: #367876;
+    border: none;
+    font-size: 1em;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px;
+}
+form input[type=submit]:hover{
+    background-color: #1f4342;
+    cursor: pointer;
+}
+
+form a.botao{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    font-size: 1em;
+    color: #367876;
+    border: 1px solid #367876;
+    height: 32px;
+    padding-top: 8px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+form a.botao:hover{
+    color: white;
+    background-color: #367876;
 }
