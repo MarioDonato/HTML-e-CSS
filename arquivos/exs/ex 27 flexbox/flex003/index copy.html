@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        div.pai{
+            background-color: blueviolet;
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            /*   
+            flex-direction 
+            row 
+            row-reverse
+            column
+            column-reverse
+
+            main-axis: main-start  main-end
+            cross-axis cross-start  cross-end
+
+            flex-wrap: wrap ou nowrap ou wrap-reverse;
+            wrap-reverse coloca o filho ao contrario do eixo cross
+
+            flex-flow: juncao de flex-direction e flex-wrap
+            */
+        }
+
+        div.filho{
+            background-color: rgb(95, 111, 160);
+            border: 1px solid black;
+            padding: 20px;
+            text-align: center;
+            flex: auto;
+            /*
+            justify-content: flex-start, flext-end, center
+            space-between, space-evenly, space-around;
+
+            */
+        }
+    </style>
+</head>
+<body>
+    <div class="pai">
+        <div class="filho">Exemplo de Bloco A</div>
+        <div class="filho">Exemplo de Bloco B</div>
+        <div class="filho">Exemplo de Bloco C</div>
+        <div class="filho">Exemplo de Bloco D</div>
+        <div class="filho">Exemplo de Bloco E</div>
+        <div class="filho">Exemplo de Bloco F</div>
+        <div class="filho">Exemplo de Bloco G</div>
+    </div>
+</body>
+</html>

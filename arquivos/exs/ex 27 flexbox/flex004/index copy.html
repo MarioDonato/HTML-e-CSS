@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        div.pai{
+            background-color: blueviolet;
+            height: 300px;
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-evenly;
+            align-items: center;
+
+            /*   
+            flex-flow: juncao de flex-direction e flex-wrap
+
+            justify-content: flex-start, flext-end, center
+            space-between, space-evenly, space-around;
+
+            align-items: stretch, flex-start, flex-end, center;
+            
+            
+            */
+            
+        }
+
+        div.filho{
+            background-color: rgb(95, 111, 160);
+            border: 1px solid black;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="pai">
+        <div class="filho">ExA</div>
+        <div class="filho">ExB</div>
+        <div class="filho">ExC</div>
+        <div class="filho">ExD</div>
+        <div class="filho">ExE</div>
+        <div class="filho">ExF</div>
+        <div class="filho">ExG</div>
+    </div>
+</body>
+</html>
